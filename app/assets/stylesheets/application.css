@@ -1,2 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.user-items {
+  margin: 5% 0% 5% 35%;
+  text-align: left;
+}
+
+.new-items {
+  margin: 50px 0px 50px 0px;
+  text-align: left;
+}
+
+.nav-tabs {
+  text-align: right;
+}
