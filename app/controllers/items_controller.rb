@@ -9,7 +9,7 @@ class ItemsController < ApplicationController
     else
       flash[:notice] = "There was an error. Your item was not saved."
     end
-    redirect_to current_user_path
+    redirect_to root_path
   end
 
   private
