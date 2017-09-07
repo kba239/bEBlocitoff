@@ -2,12 +2,12 @@
 @import "bootstrap";
 
 .user-items {
-  margin: 5% 0% 5% 35%;
+  margin: 3% 0% 3% 35%;
   text-align: left;
 }
 
 .new-items {
-  margin: 50px 0px 50px 0px;
+  margin: 20px 0px 20px 0px;
   text-align: left;
 }
 
