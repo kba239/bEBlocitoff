@@ -1,3 +1,4 @@
 <div class="list-group-item">
   <h4><%= item.name %><%= link_to "", user_item_path(current_user, item), method: :delete, remote: true, class: 'glyphicon glyphicon-ok-circle' %></h4>
+  <h6><%= distance_of_time_in_words(item.created_at + 7.days, Time.now) %> until deletion <h6>
 </div>

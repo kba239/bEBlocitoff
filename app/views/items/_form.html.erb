@@ -1,4 +1,4 @@
-<h2>Create a New Item</h2>
+<h3>Create a New Item</h2>
 <%= form_for [user, user.items.new], remote: true do |f| %>
   <div class="form group">
     <%= f.text_field :name, placeholder: "Enter your new item." %> <%= f.submit "Add", class: "btn btn-success" %>
