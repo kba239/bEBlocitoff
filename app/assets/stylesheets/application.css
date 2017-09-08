@@ -1,16 +1,65 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.user-items {
-  margin: 3% 0% 3% 35%;
+/* items style */
+.container-fluid {
+  margin: 3% 30% 3% 30%;
   text-align: left;
+  background-color: WhiteSmoke;
+  padding:  20px 20px 20px 25px;
+  border-style: outset;
+  border-color: Gainsboro;
 }
-
+h2 {
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+  color: Grey;
+}
+h4 {
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+  color: Grey;
+  padding: 0px;
+  margin: 5px 0px 5px 0px;
+}
+h6 {
+  color: DarkGrey;
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+}
 .new-items {
-  margin: 20px 0px 20px 0px;
-  text-align: left;
+  margin: 4% 0% 4% 0%;
+  text-align: center;
 }
 
+/* nav style */
 .nav-tabs {
   text-align: right;
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+}
+.nav-tabs a:hover {
+  color: Blue;
+}
+
+/* background style */
+h1 {
+  color: Black;
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+}
+h3 {
+  color: Black;
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+}
+.signed-in-as {
+  font-family: "Helvetica", Georgia;
+  font-weight: lighter;
+  margin-top: 5% 0% 2% 0%;
+}
+body {
+  background-color: White;
 }

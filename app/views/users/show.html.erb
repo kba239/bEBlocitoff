@@ -1,11 +1,13 @@
-<h2>Welcome to Blocitoff, <%= @user.email %>!</h1>
+<h1>Welcome to Blocitoff, <%= @user.email %>!</h1>
 <!-- <div class="user-info">
   <h4>User Email: <%= @user.email %></h4>
 </div> -->
-<div class="user-items">
-  <h3>Your Items</h2>
-  <%= render @items %>
-</div>
+<section>
+  <div class="container-fluid">
+    <h2>Your Items</h2>
+    <%= render @items %>
+  </div>
+</section>
 <div class="new-items">
   <%= render partial: "items/form", locals: {user: @user} %>
 </div>
