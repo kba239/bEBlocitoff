@@ -1,15 +1,15 @@
-# Blocitoff
+#Blocitoff
 
-### Blocitoff is a self-destructing to-do list application.
+###Blocitoff is a self-destructing to-do list application.
 
-#### Users can:
+####Users can:
 * Create an account
 * Sign in and out
 * Update their account
 * Create to-do list items.
 
-### Items delete after 7 days, so that your to do list doesn't get cluttered and out-of-date.
+###Items delete after 7 days, so that your to do list doesn't get cluttered and out-of-date.
 
-#### It uses Ruby on Rails, Devise, Faker, and Bootstrap.
+####It uses Ruby on Rails, Devise, Faker, and Bootstrap.
 
-![Blocitoff Example] (app/assets/images/blocitoff_example.png)
+![Blocitoff Example] (images/blocitoff_example.png)
