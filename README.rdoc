@@ -1,5 +1,3 @@
-Blocitoff
-
 Blocitoff is a self-destructing to-do list application.
 
 Users can:
@@ -11,5 +9,3 @@ Users can:
 Items delete after 7 days, so that your to do list doesn't get cluttered and out-of-date.
 
 It uses Ruby on Rails, Devise, Faker, and Bootstrap.
-
-![Blocitoff Example] (https://github.com/kba239/bEBlocitoff/app/assets/images/blocitoff_example.png)
