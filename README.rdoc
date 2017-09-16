@@ -1,28 +1,15 @@
-== README
+# Blocitoff
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Blocitoff is a self-destructing to-do list application.
 
-Things you may want to cover:
+#### Users can:
+* Create an account
+* Sign in and out
+* Update their account
+* Create to-do list items.
 
-* Ruby version
+### Items delete after 7 days, so that your to do list doesn't get cluttered and out-of-date.
 
-* System dependencies
+#### It uses Ruby on Rails, Devise, Faker, and Bootstrap.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+![Blocitoff Example] (app/assets/images/blocitoff_example.png)
