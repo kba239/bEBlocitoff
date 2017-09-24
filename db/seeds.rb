@@ -14,7 +14,7 @@ dev = User.create!(
 
 users = User.all
 
-25.times do
+50.times do
   item = Item.create!(
     user: users.sample,
     name: Faker::Lorem.sentence
