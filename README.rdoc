@@ -4,8 +4,8 @@ Users can:
 * Create an account
 * Sign in and out
 * Update their account
-* Create to-do list items.
+* Create to-do list items
 
-Items delete after 7 days, so that your to do list doesn't get cluttered and out-of-date.
+Items delete after 7 days, so that your to-do list doesn't get cluttered and out-of-date.
 
 It uses Ruby on Rails, Devise, Faker, and Bootstrap.
